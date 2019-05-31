@@ -1,4 +1,29 @@
 # Hackatrix
+Necesitaremos back? 
+yuli: 
+
+para el MVP , creo que no, puede ser un archivo json, un objeto js.
+ 
+Qué informacion se guardaría ahí? 
+
+
+yuli:  
+
+los niveles, las historias, url o rutas locales de imágenes
+
+Framework de css?
+
+Bootstrap, para facilitar el desarrollo
+
+Roles que se me ocurren :
+
+Realizar el slide 
+
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
