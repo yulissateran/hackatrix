@@ -17,7 +17,24 @@ Bootstrap, para facilitar el desarrollo
 
 Roles que se me ocurren :
 
-Realizar el slide 
+Realizar  slide  para el nivel 2 
+
+Mockups que tenemos hasta ahora: 
+![Nivel 1][https://github.com/yulissateran/hackatrix/blob/master/mockups/level-1.jpeg]
+
+![Nivel 2][https://github.com/yulissateran/hackatrix/blob/master/mockups/level-2.jpeg]
+
+![Nivel 3][https://github.com/yulissateran/hackatrix/blob/master/mockups/level-3.jpeg]
+
+![Mapa de progreso 1][https://github.com/yulissateran/hackatrix/blob/master/mockups/progress-map.jpeg]
+![Ruta de niveles 1][https://github.com/yulissateran/hackatrix/blob/master/mockups/route-levels.jpeg]
+
+
+
+
+
+
+
 
 
 
