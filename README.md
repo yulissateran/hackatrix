@@ -1,33 +1,46 @@
 # Hackatrix
+
+
+Hosting que usaremos:
+
+yuli:
+ firebase  por su compatibilidad con angular
+
+
+Framework de js? 
+yuli: 
+Angular
+
+
 Necesitaremos back? 
 yuli: 
-
 para el MVP , creo que no, puede ser un archivo json, un objeto js.
  
+
+
 Qué informacion se guardaría ahí? 
 
-
 yuli:  
-
 los niveles, las historias, url o rutas locales de imágenes
 
 Framework de css?
 
+yuli:
 Bootstrap, para facilitar el desarrollo
 
 Roles que se me ocurren :
 
-Realizar  slide  para el nivel 2 
+-Realizar  slide  para el nivel 2 .
 
-Mockups que tenemos hasta ahora: 
-![Nivel 1][https://github.com/yulissateran/hackatrix/blob/master/mockups/level-1.jpeg]
 
-![Nivel 2][https://github.com/yulissateran/hackatrix/blob/master/mockups/level-2.jpeg]
+Mockups que tenemos hasta ahora:
 
-![Nivel 3][https://github.com/yulissateran/hackatrix/blob/master/mockups/level-3.jpeg]
+![texto alternativo](./mockups/level-1.jpeg)
+![texto alternativo](./mockups/level-2.jpeg)
+![texto alternativo](./mockups/level-3.jpeg)
+![texto alternativo](./mockups/progress-map.jpeg)
+![texto alternativo](./mockups/route-levels.jpeg)
 
-![Mapa de progreso 1][https://github.com/yulissateran/hackatrix/blob/master/mockups/progress-map.jpeg]
-![Ruta de niveles 1][https://github.com/yulissateran/hackatrix/blob/master/mockups/route-levels.jpeg]
 
 
 
