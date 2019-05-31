@@ -28,9 +28,12 @@ Framework de css?
 yuli:
 Bootstrap, para facilitar el desarrollo
 
-Roles que se me ocurren :
+Roles que se te ocurren :
 
 -Realizar  slide  para el nivel 2 .
+- Modelar el json de historias, preguntas ,e imágenes
+- averiguar como, se puede hacer un mapa de progreso parecido a la 4ta imagen, con css , una imagen e iconos o etc 
+- 
 
 
 Mockups que tenemos hasta ahora:
