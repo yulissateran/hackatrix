@@ -33,11 +33,20 @@
   </div>
 
   <div class="row d-flex justify-content-center my-5">
-    <img (click)="select('good')" class="icon mr-2 pulse animated"
-      src="https://image.flaticon.com/icons/png/128/1753/1753144.png" alt="">
-    <img (click)="select('bad')" class="icon ml-2 pulse animated"
-      src="https://image.flaticon.com/icons/png/128/1484/1484797.png" alt="">
-  </div>{{progress}} -- {{curretIndexQuestion}}
+    <div>
+        <img (click)="select('good')" class="icon mr-2 pulse animated"
+        src="assets/img/happy.jpeg" alt="">
+        <span>Sí</span>
+    </div>
+    <div>
+        <img (click)="select('bad')" class="icon ml-2 pulse animated"
+        src="assets/img/bad.jpeg" alt=""> 
+        <span>No</span>
+    </div>
+    
+      
+   
+  </div>
   <div class="progress">
       <div class="progress-bar" role="progressbar"
        [ngClass]="{'w-30' : progress === 1 , 'w-60' :progress === 2 , 'w-90' : progress === 3 }" aria-valuenow="25" aria-valuemin="0"
