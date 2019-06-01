@@ -5,6 +5,7 @@ import { LecturaComponent } from './components/lectura/lectura.component';
 import { ReflexionComponent } from './components/reflexion/reflexion.component';
 import { InitGameComponent } from './components/presentación/init-game/init-game.component';
 import { GameLineComponent } from './components/presentación/game-line/game-line.component';
+import { Medalla1Component } from './components/medalla1/medalla1.component';
 
 const routes: Routes = [
   {
@@ -29,7 +30,7 @@ const routes: Routes = [
 {
   path: 'medalla-1',
   pathMatch: 'full',
-  component: ReflexionComponent
+  component: Medalla1Component
 },
 {
   path: '',
