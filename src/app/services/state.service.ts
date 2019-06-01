@@ -8,15 +8,15 @@ export class StateService {
   constructor() { }
   public levels = [{
     game: {
-      title: '¿Crees que lo que ves en la imagen es correcto?',
+      title: '¿Te parece correcta esta acción?',
       questions: [
         {
           img: `assets/img/level-1-1.jpg`,
-          response: `good`
+          response: `bad`
         },
         {
           img: `assets/img/level-1-2.jpeg`,
-          response: `bad`
+          response: `good`
         },
         {
           img: `assets/img/level-1-3.jpeg`,
