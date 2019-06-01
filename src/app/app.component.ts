@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -6,10 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  constructor(private Location: Location){
+
+  }
   title = 'hackatrix';
 public route=['cuento-1', 'faces', 'reflexion-1'];
 
   navegar(){
 
+  }
+
+  atras() {
+    this.Location.back();
   }
 }

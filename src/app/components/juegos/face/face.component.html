@@ -1,5 +1,6 @@
 
 <div class="container">
+    <button (click)="atras()" class="btn">Atras</button>
   <div class="my-5">
     <h6 class="text-center">{{state.title}}</h6>
   </div>
@@ -19,13 +20,11 @@
         src="assets/img/bad.jpeg" alt=""> 
         <strong class="mt-3 d-block text-center">No</strong>
     </div>
-    
-      
-   
   </div>
   <div class="progress">
       <div class="progress-bar" role="progressbar"
        [ngClass]="{'w-30' : progress === 1 , 'w-60' :progress === 2 , 'w-90' : progress === 3 }" aria-valuenow="25" aria-valuemin="0"
         aria-valuemax="90"></div>
-    </div>
+  </div>
+ 
 </div>

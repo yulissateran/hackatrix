@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { StateService } from 'src/app/services/state.service';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-lectura',
@@ -9,7 +10,7 @@ import { StateService } from 'src/app/services/state.service';
 })
 export class LecturaComponent implements OnInit {
 public state : any;
-  constructor( private _activeRoute: ActivatedRoute,
+  constructor( private Location: Location,private _activeRoute: ActivatedRoute,
     private _router: Router, private stateService: StateService) { 
 console.log(this._activeRoute.snapshot)
 const route = this._activeRoute.snapshot.routeConfig.path; 
@@ -30,7 +31,9 @@ console.log(this.state);
           return this.stateService.levels[2].lectura;
     }
   }
-
+  atras() {
+    this.Location.back();
+  }
   goGame(){
 const route = this._activeRoute.snapshot.routeConfig.path; 
     switch(route){
