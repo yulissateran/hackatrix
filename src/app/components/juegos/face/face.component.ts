@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { StateService } from 'src/app/services/state.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-face',
@@ -6,10 +8,33 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./face.component.css']
 })
 export class FaceComponent implements OnInit {
-
-  constructor() { }
+  public state: any = {};
+  public curretIndexQuestion: number = 0;
+  public question: any = {};
+  public progress: number = 0;
+  constructor(private stateService: StateService,  private _router: Router) {
+    this.state = this.stateService.levels[0].game;
+    this.question = this.state.questions[this.curretIndexQuestion];
+  }
 
   ngOnInit() {
+  }
+  irAReflexion(){
+  this._router.navigate(['/reflexion-1'])
+  }
+
+  select(response) {
+    if (this.curretIndexQuestion === 2) {
+      this.progress = this.progress + 1;
+      setTimeout(()=>this.irAReflexion(), 2000);
+      
+      console.log('fin');
+    } else if (this.question.response === response) {
+      this.curretIndexQuestion = this.curretIndexQuestion + 1;
+      this.question = {};
+      this.question = this.state.questions[this.curretIndexQuestion];
+      this.progress = this.progress + 1;
+    }
   }
 
 }

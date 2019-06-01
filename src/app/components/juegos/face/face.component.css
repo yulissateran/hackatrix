@@ -1,0 +1,27 @@
+.icon{
+ height: 55px;
+ width: 45px;
+}
+
+.game-one {
+    height: 90vh;
+}
+.img-responsiv {
+    /* width: 80%;
+    height: 200px; */
+}
+.leve-1-img {
+    height: 100%;
+    width: 100%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-60{
+    width: 60%;
+}
+.w-90{
+    width: 100%;
+}
