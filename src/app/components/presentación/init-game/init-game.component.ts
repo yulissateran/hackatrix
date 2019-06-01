@@ -12,7 +12,8 @@ export class InitGameComponent implements OnInit {
 
   ngOnInit() {
   }
-  navegar(idNivel){
+
+  navegar() {
     this._router.navigate(['/linea-de-juego']);
   }
 }
