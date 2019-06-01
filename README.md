@@ -3,29 +3,29 @@
 
 Hosting que usaremos:
 
-yuli:
+:
  firebase  por su compatibilidad con angular
 
 
 Framework de js? 
-yuli: 
+: 
 Angular
 
 
 Necesitaremos back? 
-yuli: 
+: 
 para el MVP , creo que no, puede ser un archivo json, un objeto js.
  
 
 
 Qué informacion se guardaría ahí? 
 
-yuli:  
+:  
 los niveles, las historias, url o rutas locales de imágenes
 
 Framework de css?
 
-yuli:
+:
 Bootstrap, para facilitar el desarrollo
 
 Roles que se me ocurren :
