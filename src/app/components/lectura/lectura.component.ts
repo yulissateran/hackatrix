@@ -31,4 +31,19 @@ console.log(this.state);
     }
   }
 
+  goGame(){
+const route = this._activeRoute.snapshot.routeConfig.path; 
+    switch(route){
+      case 'cuento-1':
+          this._router.navigate(['/faces']);
+      return ;
+      case 'cuento-2':
+          // this._router.navigate(['/linea-de-juego']);
+          return ;
+      case 'cuento-3':
+          // this._router.navigate(['/linea-de-juego']);
+          return ;
+    }
+    
+  }
 }
