@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hackatrix';
+public route=['cuento-1', 'faces', 'reflexion-1'];
+
+  navegar(){
+
+  }
 }

@@ -28,8 +28,11 @@ export class StateService {
       id: 1,
     },
     reflexion: {
-      pregunta: '',
-      texto: '',
+      pregunta: 'reflexion 1?',
+      texto: `texto reflexion uno texto reflexion uno texto reflexion uno texto reflexion uno v
+      texto reflexion unotexto reflexion uno texto reflexion uno texto reflexion unotexto reflexion unotexto reflexion uno
+      texto reflexion uno texto reflexion unotexto reflexion unotexto `,
+      
     }
   }, {
     lectura: {
