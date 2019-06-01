@@ -6,7 +6,7 @@ import { Location } from '@angular/common';
 @Component({
   selector: 'app-reflexion',
   templateUrl: './reflexion.component.html',
-  styleUrls: ['./reflexion.component.css']
+  styleUrls: ['./reflexion.component.scss']
 })
 export class ReflexionComponent implements OnInit {
   public state : any;

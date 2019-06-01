@@ -21,14 +21,14 @@ console.log(this.state);
   ngOnInit() {
   }
 
-  getData(route){
-    switch(route){
+  getData(route) {
+    switch (route) {
       case 'cuento-1':
-      return this.stateService.levels[0].lectura;
+        return this.stateService.levels[0].lectura;
       case 'cuento-2':
-          return this.stateService.levels[1].lectura;
+        return this.stateService.levels[1].lectura;
       case 'cuento-3':
-          return this.stateService.levels[2].lectura;
+        return this.stateService.levels[2].lectura;
     }
   }
   atras() {
@@ -38,15 +38,15 @@ console.log(this.state);
 const route = this._activeRoute.snapshot.routeConfig.path; 
     switch(route){
       case 'cuento-1':
-          this._router.navigate(['/faces']);
-      return ;
+        this._router.navigate(['/faces']);
+        return;
       case 'cuento-2':
-          // this._router.navigate(['/linea-de-juego']);
-          return ;
+        // this._router.navigate(['/linea-de-juego']);
+        return;
       case 'cuento-3':
-          // this._router.navigate(['/linea-de-juego']);
-          return ;
+        // this._router.navigate(['/linea-de-juego']);
+        return;
     }
-    
+
   }
 }

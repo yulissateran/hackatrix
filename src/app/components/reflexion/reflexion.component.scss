@@ -1,0 +1,56 @@
+.title{
+  left: 131px;
+  padding: 8px  15px;
+  top: 205px;
+  color: aliceblue;
+  background: #7100A7;
+  border-radius: 10px;
+}
+
+.reflextion-container{
+  padding-top: 15px;
+}
+.text-box{
+  background-image: url('src/assets/images/globo.svg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  background-size: contain;
+}
+.content-textos{
+  width: 260px;
+  margin: auto;
+}
+.text-content{
+  padding: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.text-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.question{
+  width: 347px;
+  height: 52px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #7100A7;
+}
+
+.reflextion-avatar {
+  img {
+    bottom: 20px;
+    position: absolute;
+  }
+}
