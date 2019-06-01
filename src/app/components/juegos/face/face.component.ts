@@ -43,15 +43,18 @@ export class FaceComponent implements OnInit {
       setTimeout(()=>this.irAReflexion(), 1000);
       
       console.log('fin');
-    } 
-    if (this.question.response === response) {
-      this.curretIndexQuestion = this.curretIndexQuestion + 1;
-      this.question = {};
-      this.question = this.state.questions[this.curretIndexQuestion];
-      this.progress = this.progress + 1;
     } else {
-
+      if (this.question.response === response) {
+        console.log(this.question.response , response);    
+        this.curretIndexQuestion = this.curretIndexQuestion + 1;
+        this.question = {};
+        this.question = this.state.questions[this.curretIndexQuestion];
+        this.progress = this.progress + 1;
+      } else {
+  
+      }
     }
+
   }
 
 }

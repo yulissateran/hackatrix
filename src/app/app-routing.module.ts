@@ -27,6 +27,11 @@ const routes: Routes = [
   component: ReflexionComponent
 },
 {
+  path: 'medalla-1',
+  pathMatch: 'full',
+  component: ReflexionComponent
+},
+{
   path: '',
   // pathMatch: 'full',
   component: InitGameComponent

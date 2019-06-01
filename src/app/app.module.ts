@@ -11,6 +11,7 @@ import { RolesComponent } from './components/juegos/roles/roles.component';
 import { InitGameComponent } from './components/presentación/init-game/init-game.component';
 import { StateService } from './services/state.service';
 import { GameLineComponent } from './components/presentación/game-line/game-line.component';
+import { Medalla1Component } from './components/medalla1/medalla1.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { GameLineComponent } from './components/presentación/game-line/game-lin
     DropComponent,
     RolesComponent,
     InitGameComponent,
-    GameLineComponent
+    GameLineComponent,
+    Medalla1Component
   ],
   imports: [
     BrowserModule,
