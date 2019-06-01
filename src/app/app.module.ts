@@ -8,6 +8,7 @@ import { ReflexionComponent } from './components/reflexion/reflexion.component';
 import { FaceComponent } from './components/juegos/face/face.component';
 import { DropComponent } from './components/juegos/drop/drop.component';
 import { RolesComponent } from './components/juegos/roles/roles.component';
+import { InitGameComponent } from './components/presentación/init-game/init-game.component';
 import { StateService } from './services/state.service';
 import { GameLineComponent } from './components/presentación/game-line/game-line.component';
 
@@ -19,13 +20,14 @@ import { GameLineComponent } from './components/presentación/game-line/game-lin
     FaceComponent,
     DropComponent,
     RolesComponent,
+    InitGameComponent,
     GameLineComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ StateService],
+  providers: [StateService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,43 @@
+.book-container {
+  height: 100%;
+}
+
+.book-wrapper {
+  background-image: url('src/assets/images/LIBRO-vertical.svg');
+  background-position: center;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  figure {
+    bottom: 15%;
+    left: 4%;
+    position: absolute;
+    transform: rotate(270deg);
+    width: auto;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .ng-page {
+    font-size: 14px;
+    line-height: 1.2;
+    position: absolute;
+    text-align: justify;
+    transform: rotate(270deg);
+    width: 55%;
+  }
+
+  .first-page {
+    left: 30%;
+    top: 63%;
+  }
+
+  .second-page {
+    left: 15%;
+    top: 18%;
+  }
+}

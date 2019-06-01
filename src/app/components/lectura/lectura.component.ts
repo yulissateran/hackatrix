@@ -5,7 +5,7 @@ import { StateService } from 'src/app/services/state.service';
 @Component({
   selector: 'app-lectura',
   templateUrl: './lectura.component.html',
-  styleUrls: ['./lectura.component.css']
+  styleUrls: ['./lectura.component.scss']
 })
 export class LecturaComponent implements OnInit {
 public state : any;
