@@ -15,6 +15,7 @@ export class FaceComponent implements OnInit {
   constructor(private stateService: StateService,  private _router: Router) {
     this.state = this.stateService.levels[0].game;
     this.question = this.state.questions[this.curretIndexQuestion];
+    
   }
 
   ngOnInit() {
@@ -22,18 +23,28 @@ export class FaceComponent implements OnInit {
   irAReflexion(){
   this._router.navigate(['/reflexion-1'])
   }
-
+ reset(){
+  this.state = this.stateService.levels[0].game;
+  this.question = this.state.questions[this.curretIndexQuestion];
+  this.state = {};
+  this.curretIndexQuestion = 0;
+  this.question = {};
+  this.progress = 0;
+ }
   select(response) {
     if (this.curretIndexQuestion === 2) {
       this.progress = this.progress + 1;
       setTimeout(()=>this.irAReflexion(), 2000);
       
       console.log('fin');
-    } else if (this.question.response === response) {
+    } 
+    if (this.question.response === response) {
       this.curretIndexQuestion = this.curretIndexQuestion + 1;
       this.question = {};
       this.question = this.state.questions[this.curretIndexQuestion];
       this.progress = this.progress + 1;
+    } else {
+
     }
   }
 
