@@ -3,8 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { FaceComponent } from './components/juegos/face/face.component';
 import { LecturaComponent } from './components/lectura/lectura.component';
 import { ReflexionComponent } from './components/reflexion/reflexion.component';
+import { GameLineComponent } from './components/presentación/game-line/game-line.component';
 
 const routes: Routes = [
+  {
+    path: 'linea-de-juego',
+    component: GameLineComponent
+  },
   {
     path: 'cuento-1',
     pathMatch: 'full',
@@ -19,7 +24,7 @@ const routes: Routes = [
   path: 'reflexion-1',
   pathMatch: 'full',
   component: ReflexionComponent
-}
+},
 
 ];
 
