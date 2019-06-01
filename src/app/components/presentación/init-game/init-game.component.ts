@@ -23,7 +23,7 @@ export class InitGameComponent implements OnInit {
     }, 1000);
   }
 
-  navegar(idNivel){
+  navegar(){
     this._router.navigate(['/linea-de-juego']);
   }
 }
