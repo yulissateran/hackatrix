@@ -10,6 +10,19 @@
   background-size: cover;
   height: 100vh;
 
+  .btn-next {
+    background: #21C074;
+    border: none;
+    border-radius: 30.5px;
+    color: white;
+    height: 40px;
+    padding: 10px 20px;
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 50px;
+    right: -20px;
+  }
+
   figure {
     bottom: 15%;
     left: 4%;
