@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-init-game',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InitGameComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _router: Router) { }
 
   ngOnInit() {
   }
-
+  navegar(idNivel){
+    this._router.navigate(['/linea-de-juego']);
+  }
 }

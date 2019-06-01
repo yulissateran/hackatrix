@@ -9,6 +9,8 @@ import { FaceComponent } from './components/juegos/face/face.component';
 import { DropComponent } from './components/juegos/drop/drop.component';
 import { RolesComponent } from './components/juegos/roles/roles.component';
 import { InitGameComponent } from './components/presentación/init-game/init-game.component';
+import { StateService } from './services/state.service';
+import { GameLineComponent } from './components/presentación/game-line/game-line.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,14 @@ import { InitGameComponent } from './components/presentación/init-game/init-gam
     FaceComponent,
     DropComponent,
     RolesComponent,
-    InitGameComponent
+    InitGameComponent,
+    GameLineComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [StateService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
