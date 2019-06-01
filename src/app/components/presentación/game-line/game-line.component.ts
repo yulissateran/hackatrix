@@ -15,9 +15,8 @@ export class GameLineComponent implements OnInit {
   ngOnInit() {
   }
 
-
-  navegar(idNivel){
-    this._router.navigate(['/cuento' + idNivel]);
+  navegar(idNivel) {
+    this._router.navigate(['/cuento-' + idNivel]);
   }
 
 }
