@@ -1,0 +1,73 @@
+.wrapper-map {
+  /* background-color: blueviolet; */
+  background-image: url('src/assets/images/mapa.svg');
+  background-position: center;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 380px;
+}
+
+.map-title {
+  color: #525558;
+  font-style: normal;
+  font-weight: bold;
+  padding: 30px 30px 0;
+}
+
+.btn-1 {
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  margin-top: 1.5rem;
+  margin-left: 50%;
+  height: 6rem;
+  width: 6.5rem;
+}
+
+.btn-2 {
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  margin-top: 2.8rem;
+  margin-left: 3%;
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+
+  img {
+    position: absolute;
+    height: 30px;
+    right: 0;
+    top: 0;
+  }
+}
+
+.btn-3 {
+  background-color: transparent;
+  border: none;
+  color: transparent;
+  margin-top: 1rem;
+  width: 6rem;
+  margin-left: 65%;
+  height: 6em;
+  position: relative;
+
+  img {
+    position: absolute;
+    height: 30px;
+    right: 0;
+    top: 0;
+  }
+}
+
+.btn-comenzar {
+  background: linear-gradient(348.16deg, #FB3594 0%, #3656C3 100%);
+  bottom: 0px;
+  border: none;
+  border-radius: 30.5px;
+  font-size: 18px;
+  height: 60px;
+  margin-bottom: 0;
+  margin-top: 5rem;
+}

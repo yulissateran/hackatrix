@@ -1,18 +1,23 @@
 <aside class="container">
-
-  <h2 class="text-black-gray my-5">Niveles</h2>
-  <div class="">
-    <button class="btn btn-1 btn-primary" (click)="navegar('1')">1</button>
+  <h2 class="mb-0 map-title">Niveles</h2>
+  <div class="wrapper-map">
+    <div class="">
+      <button class="btn btn-1 btn-primary" (click)="navegar('1')">
+        1
+      </button>
+    </div>
+    <div class="">
+      <button class="btn btn-2 btn-primary" (click)="navegar('2')">
+        <img src="assets/images/locker.svg" alt="locker">
+      </button>
+    </div>
+    <div class="">
+      <button class="btn btn-3 btn-primary" (click)="navegar('3')">
+        <img src="assets/images/locker.svg" alt="locker">
+      </button>
+    </div>
   </div>
-  <div class="">
-    <button class="btn btn-2 btn-primary" (click)="navegar('2')">2</button>
-  </div>
-  <div class="">
-    <button class="btn btn-3 btn-primary" (click)="navegar('3')">3</button>
-  </div>
-
   <div class="">
     <button class="btn btn-block btn-primary btn-comenzar" (click)="navegar('1')">Comenzar</button>
   </div>
-
 </aside>
