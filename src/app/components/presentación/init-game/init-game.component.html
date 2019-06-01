@@ -1,20 +1,17 @@
-<aside>
-  <div>
-    <img src="" alt="logo">
-  </div>
+<aside class="wrapped-presentation">
+  <figure class="set-logo">
+    <img src="assets/images/logo-verde.png" alt="logo">
+  </figure>
   <div class="container">
-    <div class="card text-center">
-      <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <div *ngIf="isLoading" class="set-loading">Loading...</div>
+    <div *ngIf="!isLoading" class="card text-center">
       <div class="card-body">
-        <h5 class="card-title text-center">Nombre del juego</h5>
-        <div>
-          <img src="" alt="imagen">
-        </div>
-        <div class="mb-2">
-          <button class="btn btn-primary btn-block">Jugar</button>
-        </div>
-        <div class="my-5">
-          <button class="btn btn-primary btn-block">Salir</button>
+        <figure class="set-mounstruo">
+          <img src="assets/images/mounstruo-enojado.svg" alt="imagen">
+        </figure>
+        <div class="button-container">
+            <button class="btn btn-primary btn-block custom-btn">Jugar</button>
+            <button class="btn btn-primary btn-block custom-btn">Salir</button>
         </div>
       </div>
     </div>
