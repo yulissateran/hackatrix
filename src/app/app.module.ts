@@ -8,6 +8,7 @@ import { ReflexionComponent } from './components/reflexion/reflexion.component';
 import { FaceComponent } from './components/juegos/face/face.component';
 import { DropComponent } from './components/juegos/drop/drop.component';
 import { RolesComponent } from './components/juegos/roles/roles.component';
+import { InitGameComponent } from './components/presentación/init-game/init-game.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RolesComponent } from './components/juegos/roles/roles.component';
     ReflexionComponent,
     FaceComponent,
     DropComponent,
-    RolesComponent
+    RolesComponent,
+    InitGameComponent
   ],
   imports: [
     BrowserModule,

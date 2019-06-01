@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { FaceComponent } from './components/juegos/face/face.component';
 import { LecturaComponent } from './components/lectura/lectura.component';
 import { ReflexionComponent } from './components/reflexion/reflexion.component';
+import { InitGameComponent } from './components/presentación/init-game/init-game.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,11 @@ const routes: Routes = [
   path: 'reflexion-1',
   pathMatch: 'full',
   component: ReflexionComponent
+},
+{
+  path: 'presentacion',
+  // pathMatch: 'full',
+  component: InitGameComponent
 }
 
 ];
