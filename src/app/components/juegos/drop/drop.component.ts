@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-drop',
   templateUrl: './drop.component.html',
-  styleUrls: ['./drop.component.scss']
+  styleUrls: ['./drop.component.css']
 })
 export class DropComponent implements OnInit {
 
