@@ -5,7 +5,7 @@ import { StateService } from 'src/app/services/state.service';
 @Component({
   selector: 'app-reflexion',
   templateUrl: './reflexion.component.html',
-  styleUrls: ['./reflexion.component.css']
+  styleUrls: ['./reflexion.component.scss']
 })
 export class ReflexionComponent implements OnInit {
   public state : any;
