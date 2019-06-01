@@ -27,7 +27,7 @@ const routes: Routes = [
   component: ReflexionComponent
 },
 {
-  path: 'presentacion',
+  path: '',
   // pathMatch: 'full',
   component: InitGameComponent
 }
