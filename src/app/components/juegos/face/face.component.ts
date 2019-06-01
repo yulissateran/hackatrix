@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { StateService } from 'src/app/services/state.service';
 import { Router } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-face',
@@ -12,7 +13,7 @@ export class FaceComponent implements OnInit {
   public curretIndexQuestion: number = 0;
   public question: any = {};
   public progress: number = 0;
-  constructor(private stateService: StateService,  private _router: Router) {
+  constructor(private Location: Location,private stateService: StateService,  private _router: Router) {
     this.state = this.stateService.levels[0].game;
     this.question = this.state.questions[this.curretIndexQuestion];
     
@@ -31,10 +32,15 @@ export class FaceComponent implements OnInit {
   this.question = {};
   this.progress = 0;
  }
+
+ atras() {
+  this.Location.back();
+}
+
   select(response) {
     if (this.curretIndexQuestion === 2) {
       this.progress = this.progress + 1;
-      setTimeout(()=>this.irAReflexion(), 2000);
+      setTimeout(()=>this.irAReflexion(), 1000);
       
       console.log('fin');
     } 

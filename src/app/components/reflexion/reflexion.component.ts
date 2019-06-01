@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { StateService } from 'src/app/services/state.service';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-reflexion',
@@ -10,7 +11,7 @@ import { StateService } from 'src/app/services/state.service';
 export class ReflexionComponent implements OnInit {
   public state : any;
     constructor( private _activeRoute: ActivatedRoute,
-      private _router: Router, private stateService: StateService) { 
+      private _router: Router, private stateService: StateService, private Location: Location) { 
   console.log(this._activeRoute.snapshot)
   const route = this._activeRoute.snapshot.routeConfig.path; 
   this.state = this.getData(route);
@@ -19,7 +20,10 @@ export class ReflexionComponent implements OnInit {
   
     ngOnInit() {
     }
-  
+    atras() {
+      this.Location.back();
+    }
+    
     getData(route){
       switch(route){
         case 'reflexion-1':
